@@ -3,3 +3,129 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 62.5%;
+    font-family: 'Architects Daughter', cursive;
+}
+
+body-container{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.logo img{
+    width: 20em;
+    height: auto;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    width: 30em;
+    font-size: 2.5em;
+    margin-top: 1.3em;
+    justify-content: space-between;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.links li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/images/arthas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero h1{
+    color: white;
+    width: 50%;
+    font-size: 5.2em;
+    margin-left: 50%;
+    padding-top: 8em;
+    text-align: center;
+}
+
+.info-container{
+    background-color: black;
+    color: white;
+    padding-top: 4em;
+}
+
+.info-container h3{
+    text-align: center;
+    font-size: 2.4em;
+}
+
+.game-classes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 23em;
+}
+
+.spec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2em;
+    font-size: 1.6em;
+}
+
+.spec ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 1em;
+}
+
+.pvp{
+    background-color: #8c1616;
+    padding: .3em;
+    border-radius: .5em;
+}
+
+.pvp:hover{
+    cursor: pointer;
+}
+
+.pve{
+    background-color: #0c3c84;
+    padding: .3em;
+    border-radius: .5em;
+}
+
+.pve:hover{
+    cursor: pointer;
+}
+
+.bottom-container{
+    background-image: url("/images/world-of-warcraft-legion-harbingers-illidan-00040-1902x1080.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+}
+
+.bottom-container h4{
+    color: red;
+}
+
